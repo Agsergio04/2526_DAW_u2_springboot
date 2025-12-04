@@ -1,8 +1,7 @@
 name: Despliegue Docker automatico
 
 on:
-  pull :
-    branches : ["master"]
+
   push:
     branches: ["master"]
     workflow_dispatch:
