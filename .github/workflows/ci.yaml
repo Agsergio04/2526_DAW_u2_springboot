@@ -9,7 +9,6 @@ on:
     permissions:
       contests: write
 
-
 jobs:
   docker:
     runs-on: ubuntu-latest
